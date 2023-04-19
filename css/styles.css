@@ -327,6 +327,7 @@ body {
                 border-radius: 4px;
                 padding: 8px 16px;
                 min-height: 40px;
+                min-width: 264px;
                 outline: none;
                 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
               }
@@ -799,6 +800,12 @@ body {
   width: 264px;
 }
 
+
+
+
+
+
+
 .footer_cont {
   display: flex;
 }
@@ -851,6 +858,11 @@ body {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
+
+.footer-form{
+  Width:453px;
+min-height:80px;}
 .footer-form-title {
   font-weight: 500;
   font-size: 16px;
@@ -858,22 +870,26 @@ body {
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 16px;
+  display: flex;
    }
-
 .footer-email-input {
   margin-right: 24px;
   border-color:  #FFFFFF;
   color: #FFFFFF;
   transition:  border 250ms cubic-bezier(0.4, 0, 0.2, 1); }
-
- 
-
 .input:focus {
   border-color: #4D5AE5;
 }
 
+.conteiner_input{ 
+  display: flex;
+}
 .footer-modal-btn {
-  display: inline-flex;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -884,14 +900,10 @@ body {
   padding: 8px 24px;
   border: none;
 }
-
-
-
 .btn:hover,
 .btn:focus{
   background:#404BBF;
 }
-
  .modal-btn-icon {
   margin-left: 16px;
   fill: #FFFFFF;;
