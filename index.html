@@ -84,7 +84,7 @@ name="user_name"  id="user-name" required>
 <div class="phone-wrapp form-grop"> 
 <label class="form-label" for="user-phone"> Phone</label>
 <input class="modal-form-input input"   type="tel" 
-name="user_phone" id="user-phone">
+name="user_phone" id="user-phone" required>
 <svg class="form-input-icon"> 
 <use href="./images/icons.svg#icon-Vector-phone"></use>
 </svg>
@@ -104,7 +104,7 @@ name="user_email" id="user-email"  required   >
 
 <div class="comment-wrapp form-grop">
 <label class="form-label"   for="comment">Comment</label>
-<textarea class="modal-form-comment input" 
+<textarea class="modal-form-comment input_email" 
 id="comment" placeholder="Text input"></textarea>
 </div>
 
@@ -112,7 +112,7 @@ id="comment" placeholder="Text input"></textarea>
 <input  class="form-input-accept visually-hidden" 
 type="checkbox" name="accept" required>
 <svg class="accept-craft-checkbox" width="16" height="16">
-<use href="./images/icons.svg#icon-Property-5click">
+<use href="./images/icons.svg#icon-Vector-right">
 </use>
 </svg>
 
@@ -527,8 +527,8 @@ type="checkbox" name="accept" required>
       </div>
 
 <form class="footer-form"> 
-<h2 class="footer-form-title">Subscribe</h2>
-<input class="footer-email-input input" type="text" name="user_email"
+<p class="footer-form-title">Subscribe</p>
+<input class="footer-email-input input_email" type="text" name="user_email"
  placeholder="E-mail" required>
 <button class="footer-modal-btn btn" type="submit">
   Subscribe
